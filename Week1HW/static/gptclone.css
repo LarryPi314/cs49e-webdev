@@ -1,0 +1,35 @@
+body{
+    font-family:"Arial"
+}
+
+#mainsearch {
+    text-align: center;
+}
+
+#searchbar {
+    margin:auto;
+    border-radius: 15px;
+    background: #73AD21;
+    width: 60%;
+    padding: 15px;
+    height: 30px;
+}
+
+#searchbutton {
+    margin-top: 10px;
+    font-family: 'Times New Roman';
+}
+
+.topright {
+    float: right;
+}
+
+#advsearch label {
+    margin-top: 10px;
+}
+
+#advsearch-button {
+    background: #8ab4f8;
+    border-color: #8ab4f8;
+    color: white;
+}

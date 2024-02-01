@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/gptclone.css">
+    <title>Ask your Bot App</title>
+</head>
+<body>
+    <h1>Ask Your Bot App!</h1>
+    <form action="/generate_response" method="post">
+        <input type="text" id="searchbar" value="Ask GPT anything!" name="userInput">
+        <div id="searchbutton">
+            <input type="submit" value="Generate Response" >
+        </div>
+    </form>
+    <div id="response"></div>
+</body>
+</html>
